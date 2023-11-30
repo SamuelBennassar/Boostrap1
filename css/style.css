@@ -1,0 +1,213 @@
+section, div{
+    border: 0px solid #000;
+}
+
+
+.background1{
+    background-image: url('../assets/img/background1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Rectangle {
+    width: 30%;
+    height: 85%;
+    background-color: white;
+    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.08)); 
+}
+
+.flecha {
+    max-width: 100%;
+    padding-top: 90%;
+}
+
+.background2{
+    background-image: url('../assets/img/background2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex{
+display: flex;
+flex-wrap: wrap;
+}
+
+.rectangulo{
+    width: 45%;
+    height: auto;
+    padding: 5%;
+    background-color: white;
+    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.08)); 
+
+}
+
+.cuadro{
+    background-color: white;
+    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.08)); 
+    padding: 3%;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.background3{
+    background-image: url('../assets/img/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img2 {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+span{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+h1{
+    position: relative;
+}
+
+button{
+    padding: 18px 40px;
+    color: #e60505;
+    background-color: #fff;
+    border-radius: 30%
+    
+}
+
+.topics{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    padding: 5%;
+    background-color: white;
+    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.08)); 
+
+    
+
+}
+
+.topics h4{
+    margin-left: 8%;
+    margin-top: 7%
+}
+
+.topics img{
+    margin-left: 7%
+}
+
+input{
+    position: relative;
+    margin-left: 2%;
+    width: 15%;
+    padding: 1%;
+    border-radius: 30%;
+    background-color: white;
+    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.08)); 
+}
+
+.formulario button{
+    background-color: #e72375;
+    color: #fff;
+}
+
+.col-sm-1 {
+    text-align: right;
+}
+
+.img3 {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.margin{
+    margin-top: 2%;
+}
+
+.col-sm-1.especial {
+    text-align: left;
+
+}
+
+.bluetext {
+    color: #9283E0;
+    text-align: center;
+    font-style: italic; 
+}
+
+.perfil {
+    border-radius: 50%;
+}
+
+.boton_comentarios {
+    border-radius: 15%;
+    border-color: #a3a1a1;
+    border: 2px solid;
+    
+}
+
+.col-sm-8.flex {
+    justify-content: space-between
+}
+
+.col-sm-6.flex {
+    justify-content: space-between;
+}
+
+.comments {
+    margin-left: 10%;
+}
+
+.linea {
+    width: 100%;
+    border-top: 2px solid #9e9d9d;
+}
+
+.fondo {
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    background-color: white;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.08));
+}
+
+.input_comment {
+    border-radius: 5%;
+    width: 70%;
+    padding: 20%;
+    margin-top: 3%;
+}
+
+.input_name {
+    border-radius: 10%;
+    width: 70%;
+}
+
+.input_email {
+    border-radius: 1%;
+    width: 70%;
+}
+
+.boton_post {
+    background-color: #e72375;
+    color: #fff;
+    border-radius: 30%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+@media (max-width: 600px) {
+}
+
+@media (min-width: 769px) and (max-width: 1024) {
+    
+}
